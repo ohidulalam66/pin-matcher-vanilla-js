@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #10101b;
+  background: black;
   height: 100vh;
 }
 .container {
@@ -10,9 +10,10 @@ body {
 }
 
 .half-width {
-  height: 570px;
-  background: #222436;
+  height: 500px;
+  background: #5b5b5e7e;
   padding: 30px;
+  border-radius: 20px;
   text-align: center;
 }
 .generate-btn {
@@ -24,7 +25,7 @@ body {
   background-color: #495bc3;
   color: #ffffff;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 .generate-btn:focus {
@@ -51,22 +52,16 @@ input[type="text"]:focus {
   margin: 30px 0;
 }
 
-.calc-typed {
-  margin-top: 20px;
-  font-size: 45px;
-  text-align: right;
-  color: #fff;
-}
-
 .calc-button-row {
   width: 100%;
 }
 
 .button {
   width: 20%;
+  height: 10vh;
   background: #425062;
   color: #fff;
-  padding: 20px 0;
+  padding: 10px;
   margin: 5px;
   display: inline-block;
   font-size: 25px;
